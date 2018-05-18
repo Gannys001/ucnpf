@@ -1,0 +1,41 @@
+/* CSS Document */
+p{text-indent: 0em;}
+p + p {
+    margin-top: 0em;
+}
+.time{text-indent: 0em;}
+h4{font-size:14px}
+.morebutton img{margin-left: 10px; margin-right: 7px; margin-top: 6px;}
+.morebutton dfn{font-size:11px}
+.main_nav{
+    height:auto;
+    display:inline-block;
+    margin-bottom: 10px;
+    background:#257bbd;
+}
+.main_nav li a{
+    /*padding:9px 37px;*/
+    padding:9px 30px 9px 30px;
+    font-style: normal;
+    text-align:center;
+}
+.main_nav li a:hover{font-style: normal;}
+.main_nav li a:active{font-style: normal;}
+.main_nav li.active a{font-style: normal;}
+#subnavi ul li a {
+   	height: 25px;
+    padding-left: 20px;
+    padding-top: 5px;
+    background: url("/images/shared/blue_arrow.jpg") no-repeat scroll left 6px transparent;
+}
+
+#subnavi ul li a:hover{text-decoration:none; background:url("/images/shared/yellow_arrow.gif") left 6px no-repeat; }
+#subnavi ul .active a{background:url("/images/shared/yellow_arrow.gif") left 6px no-repeat; }
+#headerlogo{margin-left: 8px;}
+#sharebar #printicon{
+	margin: 5px 10px 5px 10px;
+}
+
+
+
+

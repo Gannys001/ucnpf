@@ -1,0 +1,19 @@
+#pagecontent{
+	background-repeat: no-repeat;
+	padding:0px 40px;
+}
+
+#subnavi ul li a {
+    height: 22px;
+}
+
+#subnavi ul li {
+    padding: 6px 0;
+}
+
+#newslist li h4{
+    border-bottom: 1px dashed #DDDDDD;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    margin-bottom:16px;
+}

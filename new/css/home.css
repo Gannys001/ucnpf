@@ -1,0 +1,38 @@
+
+.bottomShadowBorder{background-image:url("../images/shared/slideshow_shadow.jpg");width:950px;height:17px}
+#column1{margin-right: 0px; padding-right: 9px;}
+#column2{padding-right: 10px; margin-right: 9px; margin-left:10px;width:290px}
+#column2 h4{border-bottom: 1px solid #cccccc; padding-bottom:13px; margin-bottom:4px}
+#work_updates_section h4{margin-bottom:20px}
+#column2 h4 img{margin-right: 5px; margin-bottom: -4px;}
+#column2 ul{margin-right:0px}
+#column2 ul li{
+	border-bottom: 1px dashed #dddddd;
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
+#work_updates_section{margin-top:16px;}
+/*
+.work_updates_row{border-bottom: 1px dashed #cccccc;height:228px; padding-bottom:10px; margin-bottom:10px}
+*/
+.work_updates_row{border-bottom: 1px dashed #cccccc;height:167px; padding-bottom:26px; margin-bottom:17px}
+#work_updates_row02{margin-bottom:16px;margin-top:16px}
+
+.featuredvideo_pic{background: none repeat scroll 0 0 #ebebea;width:228px;height:181px;border:1px solid #c8c7c1;margin-top:9px;}
+.featuredvideo_pic img{border: 1px solid white;margin-left: 9px; margin-top: 9px;}
+#featured_video{margin-top:14px}
+.bottomborder{border-bottom: 1px solid #dddddd;margin:0 0 17px 0;padding-bottom:36px;}
+.bottomborder{}
+#mp3playerwrapper{background: none repeat scroll 0 0 #ebebea; height:25px;width:226px;padding-left:4px; padding-top:4px}
+#mp3title{background: none repeat scroll 0 0 #ebebea; width: 230px;height:29px;margin-top:6px}
+#mp3title p{padding-top:4px; padding-left:5px; margin-bottom:0px}
+.bordered_image{border:2px solid #C8C7C1;margin-right:10px}
+
+.globalnavi{
+	margin-bottom:0px;
+}
+
+.boxheader{width:230px;}
+.annualreport_pic{width:228px;height:220px;}
+.annualreport_pic img{margin-left: 9px; margin-top: 9px;}
+

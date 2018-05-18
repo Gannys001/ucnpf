@@ -1,0 +1,1 @@
+document.write("<li><a href=\"/zh-cn/aboutfoundation/2017-01-20/1.html\" title=\"部分领导层照片\">部分领导层照片</a></li>");

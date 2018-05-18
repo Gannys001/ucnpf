@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie6" lang="zh-cn"><![endif]-->
+<!--[if IE 7 ]><html class="ie7" lang="zh-cn"><![endif]-->
+<!--[if IE 8 ]><html class="ie8" lang="zh-cn"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="zh-cn"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="zh-cn">
+<!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <link rel="shortcut icon" href="http://www.so.com/favicon_360.ico" type="image/x-icon" />
+    <title>北京时间</title>
+    <meta name="Keywords" content="北京时间" />
+    <meta name="Description" content="北京时间" />
+    <link rel="stylesheet" type="text/css" href="/static/css/base/reset.css" />
+    <style>
+    body{
+        font-family: "PingFang", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .btime-404{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 100;
+        width: 474px;
+        height: 384px;
+        margin-top: -192px;
+        margin-left: -237px;
+        text-align: center;
+    }
+
+    .btime-404 .bg{
+        display: block;
+        width: 554px;
+        height: 300px;
+        margin-bottom: 18px;
+        background: url('http://p4.qhimg.com/t017f041a63b2e4969f.png') no-repeat 0 0;
+    }
+
+    .btime-404 .title{
+        margin-bottom: 16px;
+        color: #333;
+        font-size: 24px;
+    }
+
+    .btime-404 .info{
+        color: #999;
+        font-size: 14px;
+    }
+
+    .btime-404 .info strong{
+        margin: 0 6px;
+        color: #e1413e;
+        font-size: 14px;
+        font-family: arial;
+    }
+    </style>
+    <script src="http://s0.qhimg.com/static/0e4b4f909dd26431/jquery,qw.core.js"></script>
+</head>
+
+<body>
+
+    <div class="btime-404">
+        <i class="bg"></i>
+        <h2 class="title">哎呀！出错啦！</h2>
+        <p class="info">您要访问的页面不存在... <strong></strong>秒后为您返回页面</p>
+    </div>
+
+    <script type="text/javascript">
+    $(function() {
+        var box = $('.btime-404 strong'),
+            i = 5;
+        box.html(i);
+
+        function count_down() {
+            if (i < 0) {
+                window.location.href = "http://www.btime.com";
+            } else {
+                box.html(i);
+                i--;
+            }
+        }
+        count_down();
+        setInterval(count_down, 1000);
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+#pagecontent{
+	padding:0px 40px;
+	background-repeat: no-repeat;
+}
+
+#subnavi ul li a {
+    height: 22px;
+}
+
+#subnavi ul li {
+    padding: 6px 0;
+}
+
+.focusvideo_pic{background: none repeat scroll 0 0 #ebebea;width:379px;height:322px;border:1px solid #c8c7c1;}
+.focusvideo_pic img{border: 1px solid white;margin-left: 9px; margin-top: 9px;}
+.focusvideo_pic strong{margin-left:10px}
+
+.normal_video_pic{background: none repeat scroll 0 0 #ebebea;width:228px;height:206px;border:1px solid #c8c7c1;margin-left:22px;}
+.normal_video_pic img{border: 1px solid white;margin-left: 9px; margin-top: 9px;}
+.normal_video_pic strong{margin-left:10px}
+
+#colum2secondpic{
+	margin-top:16px;
+}
+
+#newslist li{
+    border-bottom: 1px dashed #DDDDDD;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

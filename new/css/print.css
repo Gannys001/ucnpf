@@ -1,0 +1,20 @@
+body, h1, h2, h3, h4, h5, h6, p, a, li{color: #3f3f3f;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+#headerlogo{
+	background-image: url("");
+    text-indent: 0em;
+}
+#headerlogo span{
+	display: none;
+}
+
+#footer, #lanuagetextbar, #languagemap, #internal_email, #subnavi, #sharebar{
+	display: none;
+}
+.main_nav{
+	display: none;
+}
+.morebutton{
+	display: none;
+}
+
+
