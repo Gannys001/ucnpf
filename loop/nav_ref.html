@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lecture 3</title>
+
+	<!-- always need this when we do reponsive websites -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+	/* id win over class and tag , because id is more specfific about style*/
+	/*style with tags win over id defined in <head></head> */
+
+		#footer {
+			background-color: gray;
+			text-align: center;
+			margin-top: 50px;
+			color: white;
+			padding: 20px;
+		}
+		#relative-div {
+			background-color: orange;
+			position: relative;      /* relative distance from its original position */
+			top: 400px;
+			left: 10px;
+		}
+		#absolute-div {
+			background-color: red;
+			position: absolute;
+			width: 100px;
+			height: 100px;
+		}
+		#fixed-div {
+			background-color: yellow;
+			width: 100px;
+			height: 100px;
+			position: fixed;
+			top: 100px;
+			left: 0;
+		}	
+
+		html, body{
+			padding: 0;
+			margin: 0;
+		}
+
+		#nav{
+			background-color: #990000;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 12;
+		}
+		#nav ul{
+			list-style: none;  /* get rid of the bullets */
+			margin: 0;
+			padding: 0;
+
+			width: 608px;	/* 8px is because the border each dd 2px*/
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#nav a{
+			text-decoration: none;
+			color: #ffffff;
+			background-color: #990000;
+			border: 1px solid black;
+			width: 150px;
+			height: 40px;
+			display: block;   /* div and some other tags already has this property */
+
+			background-color: gray;
+
+			text-align: center;
+			line-height: 40px;
+		}
+		#nav a:hover{
+			background-color: #ffcc00;
+		}
+
+		#nav li{
+			float: left;
+		}
+
+		#header{
+			background-image: url("img/usc_library.jpg");
+			background-position: center bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 500px;
+
+			/* parent element is realtive */
+			position: relative;
+		}
+		#header h1{
+			margin: 0;
+			color: white;
+			text-align: center;
+
+			position: absolute;
+			/*top: 355px;*/
+			bottom: 0;
+			width: 100%;
+		}
+		.section{
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.thumbnail{
+			width: 138px;
+			height: 138px;
+			border: 1px solid black;
+			float: left;
+			margin: 5px;
+		}
+
+		.thumbnail img{
+			width: 138px;
+		}
+
+		/* Larger desktop 992px - 1199px*/
+		@media (max-width: 1199px) {
+			#nav{
+				background-color: pink;
+			}
+		}
+		/* Medium desktop 768px - 991px*/
+		@media (max-width: 991px){
+			#nav{
+				background-color: green;
+			}
+		}
+		/* Small < 768px*/
+		@media (max-width: 767px){
+			/*#nav ul{
+				width: 100%;
+			}
+			#nav*/
+
+			.section{
+				width: 85%;
+			}
+
+			#thumbnail{
+				width: 100%;
+				float: none;
+			}
+		}
+
+
+		.clear{
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div id="container" class="yellow">
+		<div id="nav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Academics</a></li>
+				<li><a href="#">Contact</a></li>
+				<div style="clear: both;"></div>
+			</ul>
+		</div>
+
+		<div id="header">
+			<h1>University of Southern California</h1>
+		</div>
+
+		<div id="summary" class="section">
+			<h2>About USC</h2>
+			<p>The University of Southern California (USC or SC) is a private research university located in Los Angeles, California. Founded in 1880, it is the oldest private research university in California. USC has historically educated a large number of the region's business leaders and professionals. In recent decades, the university has also leveraged its location in Los Angeles to establish relationships with research and cultural institutions throughout Asia and the Pacific Rim. An engine for economic activity, USC contributes US$8 billion annually to the economy of the Los Angeles metropolitan area and California.</p>
+
+			<div id="relative-div">
+				I'm a relative div!!
+			</div>
+			<div id="absolute-div">
+				I'm an absolute div!!
+			</div>
+			<div id="fixed-div">
+				I'm a fixed div!!
+			</div>
+
+			<p>For the 2014–15 academic year, there were 18,740 students enrolled in four-year undergraduate programs.USC also has 23,729 graduate and professional students in a number of different programs, including business, law, engineering, social work, and medicine. The university is one of the top fundraising institutions in the world, consistently ranking among the top three in external contributions and alumni giving rates.</p>
+
+			<p>USC maintains a strong tradition of innovation and entrepreneurship, with alumni having founded companies such as Lucasfilm, Myspace, Salesforce.com, Intuit, Qualcomm, Box, Tinder, and Riot Games. As of 2014, the university has produced the fourth largest number of billionaire alumni out of all undergraduate institutions in the world.</p>
+
+			<p>USC is home to the world's most powerful quantum computer, housed in a super-cooled, magnetically shielded facility at the USC Information Sciences Institute,the only other commercially available quantum computing system operated jointly by NASA and Google. USC was also one of the earliest nodes on ARPANET and is the birthplace of the Domain Name System. Other technologies invented at USC include DNA computing, dynamic programming, image compression, VoIP, and antivirus software.</p>
+
+			<p>USC sponsors a variety of intercollegiate sports and competes in the National Collegiate Athletic Association (NCAA) as a member of the Pac-12 Conference. Members of the sports teams, the Trojans, have won 104 NCAA team championships, ranking them third in the US, and 378 NCAA individual championships, ranking them second in the US. Trojan athletes have won 288 medals at the Olympic Games (135 golds, 88 silvers and 65 bronzes), more than any other university in the United States. If USC were a country, its athletes would have collectively received the 12th-most Olympic gold medals in history, as of 2016. In 1969, it joined the Association of American Universities.</p>
+		</div>
+		<div id="gallery" class="section">
+			<h2>Gallery</h2>
+			<div id="thumbnail-container">
+				<div class="thumbnail">
+					<img src="img/thumb_1.jpg"/>
+				</div>
+				<div class="thumbnail">
+					<img src="img/thumb_2.jpg"/>
+				</div>
+				<div class="thumbnail">
+					<img src="img/thumb_3.jpg"/>
+				</div>
+				<div class="thumbnail">
+					<img src="img/thumb_4.jpg"/>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div id="footer">
+			University of Southern California &copy; 2018
+		</div>
+	</div>
+</body>
+</html>
