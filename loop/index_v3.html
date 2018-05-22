@@ -14,7 +14,7 @@
 				border-color: white;
 				border-style: solid;
 				/*height: 100px;*/
-				background-color: pink;
+				/*background-color: pink;*/
 			}
 			.logoBox{
 				align-content: center;
@@ -24,6 +24,7 @@
 			}
 			.navBox{
 				/*height: 55px;*/
+				color:#093f86;
 			}
 			.main-news{
 				background-color: green;
@@ -38,7 +39,7 @@
 				border-bottom-width: 20px;
 				border-bottom-color: white;
 				border-bottom-style: solid;
-				background-color: skyblue;
+				background-color: #055D87;
 				height: 400px;
 			}
 			.event-view{
@@ -52,34 +53,39 @@
 				/*margin-left: 10px;*/
 				background-color: #f1d3a1;
 			}
-			.navbar-brand{
-				font-weight:bold;
-			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-10 box ">
-					<img src="images/shared/logo.png"  class="rounded d-block logoImg">
+				<div class="col-10 box">
+					<img src="images/shared/logo.png" class="rounded d-block logoImg" style="margin-left:-20px;">
 				</div>
 				<div class="col-2 box logoBox">
-					language button
+					<div class="dropdown" style="margin-top:20px;margin-left:55px;">
+					  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    切换语言
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">中文</a>
+					    <a class="dropdown-item" href="#">English</a>
+					  </div>
+					</div>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-12 box navBox">
-					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					  <a class="navbar-brand" href="#" style="color:#d40045;">美中新视角基金会</a>
+					<nav class="navbar navbar-expand-lg navbar-default">
+					  <a class="navbar-brand" href="#" style="color:#d40045;font-weight:bold;margin-left:-30px;">美中新视角基金会</a>
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					    <span class="navbar-toggler-icon"></span>
 					  </button>
 
 					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav mr-auto">
+					    <ul class="navbar-nav mr-auto nav-pills">
 					      <li class="nav-item">
-					        <a class="nav-link" href="">首页 <span class="sr-only">(current)</span></a>
+					        <a class="nav-link active" href="">首页 <span class="sr-only">(current)</span></a>
 					      </li>
 					      <li class="nav-item dropdown">
 					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -98,9 +104,9 @@
 					        <a class="nav-link" href="">关于我们</a>
 					      </li>
 					    </ul>
-					    <form class="form-inline my-2 my-lg-0">
+					    <form class="form-inline my-2 my-lg-0" style="margin-right:-30px;">
 					      <input class="form-control mr-sm-2" type="search" placeholder="输入内容" aria-label="Search">
-					      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+					      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">搜索</button>
 					    </form>
 					  </div>
 					</nav>
@@ -112,7 +118,7 @@
 				<div class="col-8 box main-news">
 					<div class="row rolling-news">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
+						  <ol class="carousel-indicators" style="margin-top:10px;">
 						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -120,24 +126,27 @@
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <a href="">
-						      <img class="d-block" src="images/xuezheduihua.jpg" height="380px" width="750px" alt="First slide">
+						      <img class="d-block" src="images/xuezheduihua.jpg" height="310px" width="750px" alt="First slide">
 						      </a>
+						      <div name="format-padding" style="height:90px"></div>
 						      <div class="carousel-caption d-none d-md-block">
 						    	<p>中日学者朝核问题对话</p>
 						  	  </div>
 						    </div>
 						    <div class="carousel-item">
 						      <a href="">
-						      <img class="d-block" src="images/guojifankong.jpg" height="380px" width="750px" alt="Second slide">
+						      <img class="d-block" src="images/guojifankong.jpg" height="310px" width="750px" alt="Second slide">
 						      </a>
+						      <div name="format-padding" style="height:90px"></div>
 						      <div class="carousel-caption d-none d-md-block">
 						    	<p>第三届中美国际反恐学术研讨会</p>
 						  	  </div>
 						    </div>
 						    <div class="carousel-item">
 						      <a>
-						      <img class="d-block" src="images/xuanfeng.jpg" height="380px" width="750px" alt="Third slide">
+						      <img class="d-block" src="images/xuanfeng.jpg" height="310px" width="750px" alt="Third slide">
 						      </a>
+						      <div name="format-padding" style="height:90px"></div>
 						      <div class="carousel-caption d-none d-md-block">
 						    	<p>纪录片《旋风九日》在华盛顿展映</p>
 						  	  </div>
