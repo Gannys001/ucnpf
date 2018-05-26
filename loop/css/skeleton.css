@@ -1,0 +1,36 @@
+.container{
+	/*background-color: grey;*/
+	/*height: 100px;*/
+}
+.box{
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	/*height: 100px;*/
+	/*background-color: pink;*/
+}
+.logoBox{
+	align-content: center;
+}
+.logoImg{
+	width: 250px;
+}
+.navBox{
+	/*height: 55px;*/
+	color:#093f86;
+}
+
+
+.footerBox{
+	background-color: #6e6f72;
+	color: white;
+}
+.QRcodeBox{
+	background-color: #6e6f72;
+}
+.footer-link{
+	color: black;
+}
+.scan-img{
+	margin-top: 10px;
+}
