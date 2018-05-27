@@ -1,13 +1,14 @@
+body{
+	background:url(../images/shared/bg.jpg); 
+	background-position:center; 
+	background-repeat:no-repeat;
+}
 .container{
 	/*background-color: grey;*/
 	/*height: 100px;*/
 }
 .box{
-	border-width: 5px;
-	border-color: white;
-	border-style: solid;
-	/*height: 100px;*/
-	/*background-color: pink;*/
+	border:5px solid rgba(0,0,0,0);
 }
 .logoBox{
 	align-content: center;
@@ -19,14 +20,12 @@
 	/*height: 55px;*/
 	color:#093f86;
 }
-
-
 .footerBox{
-	background-color: #6e6f72;
-	color: white;
+	background-color: #257bbd;
+	/*color: white;*/
 }
 .QRcodeBox{
-	background-color: #6e6f72;
+	background-color: #257bbd;
 }
 .footer-link{
 	color: black;

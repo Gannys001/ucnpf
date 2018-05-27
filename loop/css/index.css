@@ -25,9 +25,9 @@
 .rolling-news{
 	/*border: 2px solid red;*/
 	border-bottom-width: 20px;
-	border-bottom-color: white;
+	border-bottom-color: rgba(0,0,0,0);
 	border-bottom-style: solid;
-	background-color: #055D87;
+	background-color: rgba(5,93,135,1);
 	height: 400px;
 }
 .event-view{
