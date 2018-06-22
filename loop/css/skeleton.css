@@ -1,35 +1,50 @@
-body{
-	background:url(../images/shared/bg.jpg); 
-	background-position:center; 
-	background-repeat:no-repeat;
-}
 .container{
-	/*background-color: grey;*/
-	/*height: 100px;*/
+	/*background-color: #8dacdd;*/
+	height: 800px;
 }
-.box{
-	border:5px solid rgba(0,0,0,0);
+#logoImg{
+	height: 90px;
 }
-.logoBox{
-	align-content: center;
+#navDiv{
+	vertical-align: bottom;
 }
-.logoImg{
-	width: 250px;
+.navBtn{
+	height: 40px;
+	width: 115px;
+	position: relative;
+	top: 47px;
+	border-radius: 0px;
+	border: none;
+	/*background-color: #CB071F;*/
+	background-color: #004195;
+	font-weight: bold;
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%);
 }
-.navBox{
-	/*height: 55px;*/
-	color:#093f86;
+.dropdown-bg{
+	background-color: #CB071F;
+	/*background-color: #004195;*/
 }
-.footerBox{
-	background-color: #257bbd;
-	/*color: white;*/
+.language{
+	height: 40px;
+	width: 125px;/*
+	position: relative;
+	top: 47px;*/
 }
-.QRcodeBox{
-	background-color: #257bbd;
+
+.footer{
+	background-color: #004195;
+	color: white;
+	height: 50px;
 }
-.footer-link{
+.footer-center{
+	/*background-color: pink;*/
+	height: 50px;
+}
+a.footer-link{
 	color: black;
+	text-decoration: none;
 }
-.scan-img{
-	margin-top: 10px;
+a.footer-link: hover{
+	color: black;
+	text-decoration: none;
 }

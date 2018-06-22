@@ -1,42 +1,15 @@
-.main-news{
-	/*background-color: #dbdde0;*/
-	height: 800px;
-}
-.programs{
-	/*background-color: grey;*/
-	border-left-width: 15px;
-	height: 800px;
-}
-.programContent{
-	overflow-y: scroll;
-	height: 725px;
-}
-.titleDiv{
+.first-left{
+	height: 500px;
 	/*background-color: green;*/
 }
-.breadcrumb{
-	height: 30px;
-	line-height: 9px;
+.first-right{
+	height: 500px;
+	background-color: blue;
 }
-.card-text{
-	line-height: 20px;
+.carousel-item{
+	height: 390px;
+	overflow: hidden;
 }
-
-.rolling-news{
-	/*border: 2px solid red;*/
-	border-bottom-width: 20px;
-	border-bottom-color: rgba(0,0,0,0);
-	border-bottom-style: solid;
-	background-color: rgba(5,93,135,1);
-	height: 400px;
-}
-.event-view{
-	/*background-color: brown;*/
-	height: 300px;
-}
-.event{
-	/*background-color: #949217;*/
-}
-.view{
-	/*background-color: #f1d3a1;*/
+.carousel-caption{
+	background: rgba(96, 98, 102, 0.7);
 }

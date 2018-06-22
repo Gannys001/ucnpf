@@ -6,26 +6,59 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/skeleton.css">
-		<link rel="stylesheet" href="css/index.css">
+		<!-- <link rel="stylesheet" href="css/index.css"> -->
+		<style type="text/css">
+			.main-news{
+	/*background-color: #dbdde0;*/
+	height: 800px;
+}
+.programs{
+	/*background-color: grey;*/
+	border-left-width: 15px;
+	height: 800px;
+}
+.programContent{
+	overflow-y: scroll;
+	height: 725px;
+}
+.titleDiv{
+	/*background-color: green;*/
+}
+.breadcrumb{
+	height: 30px;
+	line-height: 9px;
+}
+.card-text{
+	line-height: 20px;
+}
+
+.rolling-news{
+	/*border: 2px solid red;*/
+	border-bottom-width: 20px;
+	border-bottom-color: rgba(0,0,0,0);
+	border-bottom-style: solid;
+	background-color: rgba(5,93,135,1);
+	height: 400px;
+}
+.event-view{
+	/*background-color: brown;*/
+	height: 300px;
+}
+.event{
+	/*background-color: #949217;*/
+}
+.view{
+	/*background-color: #f1d3a1;*/
+}
+		</style>
 		
 	</head>
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-10 box">
+				<!-- <div class="col-10 box" id="logoDiv">
 					<img src="images/shared/logo.png" class="rounded d-block logoImg" style="margin-left:-20px;">
-				</div>
-				<div class="col-2 box logoBox">
-					<div class="dropdown" style="margin-top:20px;margin-left:55px;">
-					  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					    切换语言
-					  </button>
-					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					    <a class="dropdown-item" href="">中文</a>
-					    <a class="dropdown-item" href="">English</a>
-					  </div>
-					</div>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="row">
@@ -64,10 +97,15 @@
 					        <a class="nav-link" href="contact.html">关于我们</a>
 					      </li>
 					    </ul>
-					    <form class="form-inline my-2 my-lg-0" style="margin-right:-30px;">
-					      <input class="form-control mr-sm-2" type="search" placeholder="输入内容" aria-label="Search">
-					      <button class="btn btn-primary my-2 my-sm-0" type="submit">搜索</button>
-					    </form>
+					    <div class="dropdown" style="margin-top:20px;margin-left:55px;">
+						  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    切换语言
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="">中文</a>
+						    <a class="dropdown-item" href="">English</a>
+						  </div>
+						</div>
 					  </div>
 					</nav>
 
