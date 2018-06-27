@@ -39,16 +39,39 @@ hr{
 .second-left{
 	height: 900px;
 	/*background-color: pink;*/
-	  border: 0;
+	 border: 0;
     border-right: 1px dashed #ccc;
 }
 .second-right{
 	/*background-color: green;*/
 }
 
-.news-block{
+.prog-block{
 	padding-right: 5%;
 }
 .wide-thumbbnail{
 	width: 100%;
+}
+
+.dash-hr{
+	border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+.second-right h4{
+	font-weight: bold;
+	color: #265ea5; 
+}
+.second-right .text-right{
+	font-size: 13px;
+	text-align: right;
+	color: grey;
+}
+.second-right img{
+	width: 40%;
+	float: left;
+	margin-right: 15px;
+}
+.second-right p{
+	font-size: 15px;
 }
