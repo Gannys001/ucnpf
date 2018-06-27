@@ -16,12 +16,26 @@
 	border-radius: 0px;
 	border: none;
 	/*background-color: #CB071F;*/
-	background-color: #004195;
+	/*background-color: #004195;*/
+	/*background-color: #265ea5;*/
+
+	color: #265ea5;
+	background-color: white;
+	font-size: 18px;
+	border-right: 2px solid #265ea5;
+
 	font-weight: bold;
-	background-image: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%);
+	/*background-image: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 51%);*/
+}
+.navBtn:hover{
+	background-color: #b3b3b3;
+}
+.navBtn a{
+	text-decoration: none;
+	color: #265ea5;
 }
 .dropdown-bg{
-	background-color: #CB071F;
+	/*background-color: #CB071F;*/
 	/*background-color: #004195;*/
 }
 .language{
@@ -32,8 +46,8 @@
 }
 
 .footer{
-	background-color: #004195;
-	color: white;
+	background-color: white;
+	color: #004195;
 	height: 50px;
 }
 .footer-center{
