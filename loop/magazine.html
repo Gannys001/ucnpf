@@ -3,14 +3,15 @@
 	<head>
 		<title>新视角杂志</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/footer.css">
+		<link rel="icon" href="images/shared/favicon.png" type="image/png" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/index.css">
 		<style type="text/css">
-			body{
-				background:url(images/shared/bg.jpg); 
-				background-position:center; 
-				background-repeat:no-repeat;
-			}
 			.box{
 				border:5px solid rgba(0,0,0,0);
 			}
@@ -30,23 +31,41 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
-				<div class="col-10 box">
-					<img src="images/shared/logo.png" class="rounded d-block logoImg" style="margin-left:-20px;">
+			<div class="row" id="navDiv">
+				<div class="w-20">
+					<img src="images/newLogo.png" id="logoImg" />
 				</div>
-				<div class="col-2 box logoBox">
-					<div class="dropdown" style="margin-top:20px;margin-left:55px;">
-					  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					    切换语言
+				<div class="w-10 ml-1">
+					<a href="index_v4.html"><button type="button" class="btn btn-primary navBtn">首页</button></a>
+				</div>
+				<div class="w-10">	
+					<button type="button" class="btn btn-secondary navBtn"><a href="#">项  目</a></button>
+				</div>
+				<div class="w-10">
+					<button type="button" class="btn btn-secondary navBtn"><a href="magazine.html">新视角杂志</a></button>
+				</div>
+				<div class="w-10">
+					<button type="button" class="btn btn-secondary navBtn"><a href="view.html">钝角网</a></button>
+				</div>
+				<div class="w-10">
+					<button type="button" class="btn btn-secondary navBtn"><a href="about.html">关于我们</a></button>
+				</div>
+				<div class="w-10">
+					<button type="button" class="btn btn-secondary navBtn"><a href="contact.html">联系我们</a></button>
+				</div>
+				<div class="w-10">
+					<div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle navBtn dropdown-bg language" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Language
 					  </button>
-					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					  <div class="dropdown-menu dropdown-bg" aria-labelledby="dropdownMenuButton">
 					    <a class="dropdown-item" href="magazine.html">中文</a>
 					    <a class="dropdown-item" href="magazine_EN.html">English</a>
 					  </div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-12 box navBox">
 					<nav class="navbar navbar-expand-lg navbar-default">
 					  <a class="navbar-brand" href="index_v3.html" style="color:#d40045;font-weight:bold;margin-left:-30px;">美中新视角基金会</a>
@@ -89,12 +108,14 @@
 					  </div>
 					</nav>
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
 				<div class="col-1 box indexBox">
 				</div>
 				<div class="col-10 box contentBox">
 					<div class="content-div" style="margin-top:20px;">
+						</br>
+						</br>
 						<h5>新视角杂志</h5>
 						<p style="text-indent:2em;"><span style="font-size:15px;line-height:1.5em;">新视角为美中新视角基金会的杂志。2004年创刊，其前身是《领导者》杂志。杂志的定位是对中美关系，亚太事务以及其他重大全球性事务进行深度分析报道，希望以其深度剖析，独特视角全方位解读中美关系以及重大全球事务中存在的问题。
 						</p>
@@ -110,7 +131,18 @@
 				<div class="col-1 box indexBox">
 				</div>
 			</div>
-			<div class="row">
+			<hr class="fancy-hr">
+			<div class="row footer">
+				<div class="col-9 ml-auto mr-auto footer-center">
+					<p class="text-center">
+						2804 Gateway Oaks Dr Ste 200, Sacramento CA 95833
+					</p>
+					<p class="text-center">
+						Copyright &copy; 2018 The U.S.-China New Perspectives Foundation. All rights reserved.
+					</p>
+				</div>
+			</div>
+			<!-- <div class="row">
 				<HR align=center width=1200 color=black SIZE=5>
 				<div class="col-9 footerBox">
 					<footer class="footer-div">
@@ -128,10 +160,10 @@
           				<p style="padding-top:20px;"> 微信公众号 </p>
       				</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</body>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
 </html>
