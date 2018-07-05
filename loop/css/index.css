@@ -37,17 +37,26 @@ hr{
 }
 
 .second-left{
-	height: 900px;
+	height: 815px;
 	/*background-color: pink;*/
 	 border: 0;
     border-right: 1px dashed #ccc;
 }
 .second-right{
 	/*background-color: green;*/
+	height: 815px;
 }
 
 .prog-block{
 	padding-right: 5%;
+}
+.prog-block h5{
+	font-weight: bold;
+	color: #265ea5;
+}
+.prog-block a{
+	/*text-decoration: none;*/
+	color: black;
 }
 .wide-thumbbnail{
 	width: 100%;

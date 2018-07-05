@@ -1,0 +1,36 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background: rgb(66, 67, 68, 0.5);
+	color: white;
+}
+
+.subject{
+	font-weight: bold;
+}
+.disabled{
+	cursor: context-menu;
+}
+
+.prog-name{
+	color: #265ea5;
+	border-bottom: 1px dotted  grey;
+}
+.prog-content{
+	/*background-color: pink;*/
+}
+.nav-pills .nav-link{
+	border-radius: 1px;
+	color: #265ea5;
+}
+a.prog-name:hover{
+	border-bottom: 1px solid black;
+}
+
+.prog-content p{
+	text-indent: 2em;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.large-img{
+	width: 700px;
+	margin-left: 65px;
+}
