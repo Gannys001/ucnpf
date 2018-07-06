@@ -5,6 +5,7 @@
 
 .subject{
 	font-weight: bold;
+	font-family:'Myriad Pro','FZLTH_GB18030',"Microsoft YaHei","STHeiti-Light","SimSun";
 }
 .disabled{
 	cursor: context-menu;
@@ -13,9 +14,11 @@
 .prog-name{
 	color: #265ea5;
 	border-bottom: 1px dotted  grey;
+	font-family:'Myriad Pro','FZLTH_GB18030',"Microsoft YaHei","STHeiti-Light","SimSun";
 }
 .prog-content{
 	/*background-color: pink;*/
+	font-family:'Myriad Pro','FZLTH_GB18030',"Microsoft YaHei","STHeiti-Light","SimSun";
 }
 .nav-pills .nav-link{
 	border-radius: 1px;

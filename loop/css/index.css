@@ -1,3 +1,6 @@
+body{
+	font-family:'Myriad Pro','FZLTH_GB18030',"Microsoft YaHei","STHeiti-Light","SimSun";
+}
 .first-left{
 	height: 400px;
 }
@@ -15,7 +18,13 @@
 	background: rgba(96, 98, 102, 0.7);
 }
 .right-title{
-	font-weight: bold;
+	font-weight: 600;
+	color: #265ea5;
+}
+.media{
+	font-family:'Myriad Pro','FZLTH_GB18030',"Microsoft YaHei","STHeiti-Light","SimSun";
+}
+.media-body a{
 	color: #265ea5;
 }
 .prog-thumbnail{
@@ -51,7 +60,7 @@ hr{
 	padding-right: 5%;
 }
 .prog-block h5{
-	font-weight: bold;
+	/*font-weight: 600;*/
 	color: #265ea5;
 }
 .prog-block a{
