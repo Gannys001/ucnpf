@@ -25,7 +25,7 @@
 					<button type="button" class="btn btn-secondary navBtn"><a href="about_EN.html">About Us</a></button>
 				</div>
 				<div class="w-10">	
-					<button type="button" class="btn btn-secondary navBtn"><a href="programs_EN.html#1-1">Programs</a></button>
+					<button type="button" class="btn btn-secondary navBtn"><a href="programs_EN.html#0-0">Programs</a></button>
 				</div>
 				<div class="w-10">
 					<button type="button" class="btn btn-secondary navBtn"><a href="magazine_EN.html">Magazine</a></button>
@@ -91,8 +91,13 @@
 
 			      <div class="tab-pane fade prog-content" id="content1-3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
 			      	<h3 class="text-center">Conference for Beijing Multinational Corporations</h3>
+			      	<img src="images/programs/kuaguo1.jpg" class="large-img">
 			      	<p>
-			      		On December 7, 2017, the Beijing CBD Multinational Corporation High-Level Government Business Conference came to a perfect end. This conference was co-organized by the Beijing CBD Multinational Corporation Government Business Club and Z-share Consulting. Leaders from the Department of Trade Foreign Investment Department, the Beijing Commerce Committee Headquarters Economy, and the Beijing CBD Administrative Committee were all in attendance. The founder of the U.S. - China New Perspectives Foundation, Chairman Zhou Zhixing, hosted the conference. Guests conducted a deep dialogue and exchange on the opportunities and advantages of investing in China under the new fully opened circumstances, and achieved excellent results, reaching a consensus on various topics such as how China should attract foreign investment opportunities, China’s all-around new policy’s economic increase, improving investment services, and so on.
+			      		On December 7, 2017, the Beijing CBD Multinational Corporation High-Level Government Business Conference came to a perfect end. This conference was co-organized by the Beijing CBD Multinational Corporation Government Business Club and Z-share Consulting. Leaders from the Department of Trade Foreign Investment Department, the Beijing Commerce Committee Headquarters Economy, and the Beijing CBD Administrative Committee were all in attendance. 
+			      	</p>
+ 				    <img src="images/programs/kuaguo2.jpg" class="large-img">
+			      	<p>
+			      		The founder of the U.S. - China New Perspectives Foundation, Chairman Zhou Zhixing, hosted the conference. Guests conducted a deep dialogue and exchange on the opportunities and advantages of investing in China under the new fully opened circumstances, and achieved excellent results, reaching a consensus on various topics such as how China should attract foreign investment opportunities, China’s all-around new policy’s economic increase, improving investment services, and so on.
 			      	</p>
 			      	<!-- <img src="images/programs/kuaguo.png" class="large-img"> -->
 			      </div>
@@ -176,12 +181,15 @@
 
 			      <div class="tab-pane fade prog-content" id="content3-1" role="tabpanel" aria-labelledby="v-pills-settings-tab">
 			      	<h3 class="text-center">The Carter Center Call for Papers Event</h3>
+			      	<img src="images/programs/kate1.jpg" class="large-img">
 			      	<p>
 			      		On January 30, 2018, the Carter Center, The Global Times, and Emory University’s Office of Global Strategy and Initiatives jointly held the Fourth U.S. - China Young Scholars Conference in Atlanta, Georgia. The U.S. - China Young Scholars Conference was established in 2014 as a collaborative effort between the Carter Center and The Global Times, and serves as a platform for allowing young Chinese and American scholars to connect, engage in discussion, and conduct research. 
 			      	</p>
+			      	<img src="images/programs/kate2.jpg" class="large-img">
 			      	<p>
 			      		At the conference, more than ten scholars from China and America shared their research projects. Zhu Feng, from Nanjing University’s International Relations Department, the Director of the Wilson Center’s Kissinger Institute on China and the United States Robert Daly, the Director of the University of Texas at Austin’s China Policy Center David J. Firestein, and other top experts on U.S. - China relations evaluated and gave feedback on the young scholars’ research.
 			      	</p>
+			      	<img src="images/programs/kate3.jpg" class="large-img">
 			      	<p>
 			      		The Director of the U.S. - China New Perspectives Foundation, Zhou Zhixing, and Editor-in-Chief of The Global Times Hu Tin delivered a special address analyzing various issues in both left wing and right wing approaches to U.S. - China relations.
 			      	</p>
@@ -189,6 +197,17 @@
 			      		The U.S. - China New Perspectives Foundation was a collaborator in this conference and published a collection of scholarly papers titled The Impact of Nationalism and National Identity on Sino-American Relations.
 			      	</p>
 			      	<!-- <img src="images/programs/fanghua.png" class="large-img"> --> <!---->
+			      </div>
+
+			      <div class="tab-pane fade program-intro show active" id="content0-0" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+			      	<p>The U.S.-China New Perspectives Foundation works on three areas: policy-oriented research, public diplomacy, and educational program. </p>
+			      	<h4>Policy-Oriented Research</h4>
+			      	<p>Together with various Sino-American and Sino-Japanese research institutions, the Foundation organizes policy seminars, holds discussions to analyze the main challenges in China-U.S. and international relations in the Asia-Pacific region, promotes communication between all sides, and strives to eliminate misunderstanding.</p>
+			      	<h4>Public Diplomacy </h4>
+			      	<p>Through China-U.S. interaction at all levels (including people-to-people diplomacy as well as exchanges at the subnational level), the Foundation has created a platform for interaction among people from both countries and helps promote friendship, mutual understanding, and cooperation between the Chinese and American people.</p>
+			      	<h4>Educational Program</h4>
+			      	<p>The purpose of participating in and supporting various types of organizations promoting Sino-American relations is to kick-start the next generation of educational events related to Sino-American issues. Young people embody the future of China-U.S. relations, and their involvement will serve as the cornerstone for all further developments. The Foundation greatly values discussions and activities that promote mutual understanding between Chinese and American youth and hopes to create new opportunities for contact. </p>
+
 			      </div>
 
 			    </div>
@@ -226,11 +245,11 @@
 			contentList[i].classList.remove('active');
 		}
 
-		var button = document.querySelector('#p'+progNum);
-		button.classList.add('active');
 		var content = document.querySelector('#content'+progNum);
 		content.classList.add('show');
 		content.classList.add('active');
+		var button = document.querySelector('#p'+progNum);
+		button.classList.add('active');
 
 	</script>
 </html>

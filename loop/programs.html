@@ -25,7 +25,7 @@
 					<button type="button" class="btn btn-secondary navBtn"><a href="about.html">关于我们</a></button>
 				</div>
 				<div class="w-10">	
-					<button type="button" class="btn btn-secondary navBtn"><a href="#">项  目</a></button>
+					<button type="button" class="btn btn-secondary navBtn"><a href="programs.html#0-0">项  目</a></button>
 				</div>
 				<div class="w-10">
 					<button type="button" class="btn btn-secondary navBtn"><a href="magazine.html">新视角杂志</a></button>
@@ -96,7 +96,6 @@
 			      	<p>
 			      		美中新视角基金会创始人、总裁周志兴主持论坛，嘉宾们围绕“全面开放新格局下投资中国的机遇与优势”的主题开展深度对话交流，在中国吸引外资新机遇、中国全面开放新格局下的经济增量、提高投资服务质量等方面取得了很多共识，收到了良好效果。
 			      	</p>
-			      	<!-- <img src="images/programs/kuaguo.png" class="large-img"> -->
 			      </div>
 
 			      <div class="tab-pane fade prog-content" id="content1-4" role="tabpanel" aria-labelledby="v-pills-messages-tab">
@@ -187,7 +186,17 @@
 			      	<p>
 			      		美中新视角基金会作为此次论坛的协办单位，出版了《民族主义和国家认同对中美关系的影响》的论文集。
 			      	</p>
-			      	<!-- <img src="images/programs/fanghua.png" class="large-img"> --> <!---->
+			      </div>
+
+			      <div class="tab-pane fade prog-content program-intro show active" id="content0-0" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+			      	<p>美中新视角基金会在三个领域开展工作：政策性研讨会，民间交流以及培养未来领袖。</p>
+			      	<h4>政策性研讨会</h4>
+			      	<p>与中美以及中日从事相关领域的研究机构举办各类政策性研讨会，对中美关系以及亚太国际关系中存在的重大问题进行深度分析探讨，加强各方的沟通，减少误判，为相关议题提供建设性意见。</p>
+			      	<h4>民间交流</h4>
+			      	<p>通过中美之间各层次的交流（包括各类次国家层面的交流和各种民间外交活动），为加强两国人民的交流提供平台，促进中美两国人民之间的友谊、理解和合作。</p>
+			      	<h4>培养未来领袖</h4>
+			      	<p>参与和资助各类中美友好机构致力于培养中美下一代的教育性交流活动。年轻一代是中美的未来，是承接中美关系继续发展的基石。基金会高度重视中美年轻一代的交流和相互理解，致力于为他们的沟通创造各种机会。</p>
+
 			      </div>
 
 			    </div>
@@ -224,11 +233,11 @@
 			contentList[i].classList.remove('active');
 		}
 
-		var button = document.querySelector('#p'+progNum);
-		button.classList.add('active');
 		var content = document.querySelector('#content'+progNum);
 		content.classList.add('show');
 		content.classList.add('active');
+		var button = document.querySelector('#p'+progNum);
+		button.classList.add('active');
 
 	</script>
 </html>

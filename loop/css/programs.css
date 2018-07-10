@@ -47,3 +47,10 @@ a.prog-name:hover{
 .prog-content h6{
 	color: grey;
 }
+.program-intro{
+	margin-top: 20px;
+}
+.program-intro h4{
+	color: #2a5daf;
+	font-weight: bold;
+}
